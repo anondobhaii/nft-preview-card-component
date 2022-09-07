@@ -90,23 +90,23 @@ main .card .card__text .bit {
   align-items: center;
   margin-bottom: 20px;
 }
-main .card .card__text .bit span:first-child {
+main .card .card__text .bit div:first-child {
   color: var(--pri-c);
   display: flex;
   align-items: center;
 }
-main .card .card__text .bit span:first-child p {
+main .card .card__text .bit div:first-child > span {
   margin: 0;
   color: var(--pri-c);
   font-weight: 600;
   padding-left: 0.5em;
 }
-main .card .card__text .bit span:last-child {
+main .card .card__text .bit div:last-child {
   color: var(--pri-sb);
   display: flex;
   align-items: center;
 }
-main .card .card__text .bit span:last-child p {
+main .card .card__text .bit div:last-child > span {
   margin: 0;
   padding-left: 0.5em;
 }

@@ -90,12 +90,12 @@ main {
         justify-content: space-between;
         align-items: center;
         margin-bottom: 20px;
-        span {
+        div {
           &:first-child {
             color: var(--pri-c);
             display: flex;
             align-items: center;
-            p {
+            >span {
               margin: 0;
               color: var(--pri-c);
               font-weight: 600;
@@ -106,7 +106,7 @@ main {
             color: var(--pri-sb);
             display: flex;
             align-items: center;
-            p {
+            >span {
               margin: 0;
               padding-left: 0.5em;
             }
