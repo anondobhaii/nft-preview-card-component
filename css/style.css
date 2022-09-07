@@ -38,7 +38,7 @@ main .card {
   overflow: hidden;
 }
 main .card .card__img {
-  margin: 1.5em;
+  margin: 1em;
   position: relative;
   cursor: pointer;
   transition: 0.2s;
@@ -88,7 +88,7 @@ main .card .card__text .bit {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 main .card .card__text .bit div:first-child {
   color: var(--pri-c);

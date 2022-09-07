@@ -40,7 +40,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     .card__img {
-      margin: 1.5em;
+      margin: 1em;
       position: relative;
       cursor: pointer;
       transition: 0.2s;
@@ -89,7 +89,7 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         div {
           &:first-child {
             color: var(--pri-c);
