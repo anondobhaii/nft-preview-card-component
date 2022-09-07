@@ -40,7 +40,8 @@ main {
     border-radius: 10px;
     overflow: hidden;
     .card__img {
-      margin: 1em;
+      margin: 1.5em;
+      margin-bottom: 0em;
       position: relative;
       cursor: pointer;
       transition: 0.2s;
@@ -83,7 +84,7 @@ main {
         color: var(--pri-sb);
         line-height: 1.5rem;
         font-weight: 300;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       .bit {
         display: flex;
